@@ -1,0 +1,76 @@
+
+const resumevalue={
+    "name":"subash",
+    "contact": {
+        "email": "rssubash96@.com",
+        "phone": "9655027920",
+        "address": "203 e ammankulam"
+    }
+  [
+        {
+            "position": "student",
+            "startDate": "2020-06-01",
+            "endDate": "Present",
+            "responsibilities": [
+                "Assisting users with various tasks and inquiries",
+                "Generating human-like text based on input prompts",
+                "Continuously learning and improving through feedback"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "degree": "EEE DEPLOMO",
+            "institution": "goverment polytecknic ",
+            "graduationDate": "2023"
+        }
+    ],
+    "skills": [
+        "js",
+        "html",
+        "java css",
+        "Task Assistance"
+    ]
+}
+
+const objkey = Object.keys(resumevalue)
+const objvalue =Object.values(resumevalue)
+
+for(let i=0; i< objkey.length; i++){
+    console.log(objkey[i])
+}
+
+for(let i=0; i< objvalue.length; i++){
+    console.log(objvalue[i])
+}
+
+
+//for each
+
+objvalue.forEach((val,idx,) =>{
+    console.log(val)
+}
+
+) 
+
+objvalue.forEach((val,idx,) =>{
+    console.log(idx)
+}
+
+) 
+
+
+
+//for in\  
+
+objvalue.forin (let key in obj) {
+    if (object.hasOwnProperty(key)) {
+      // Do something with object[key]
+    }
+  }
+  
+
+  //for of
+  objvalue.forin((str of resumevalue){
+    console.log(resumevalue)
+  })
